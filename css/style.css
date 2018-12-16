@@ -1,43 +1,42 @@
 *{
-  font-size:10px;
+  font-size:16px;
 }
 
 h1{
-  font-size:4rem;
   text-align:center;
+  position:relative;
+  margin-bottom:30px;
 }
 
 nav{
-  font-size:2rem;
   text-align:center;
+  position:relative;
 }
 
 h2{
-  font-size:3rem;
   text-align:center;
-
+  position:relative;
+  margin-bottom:30px;
+  margin-top:30px;
 }
 table, th, td{
   border-collapse: collapse;
-  border:2px solid;
+  border:2px solid black;
   width:50%;
   margin:auto;
+  vertical-align:bottom;
+  position:relative;
 }
 th,td{
-  font-size:2rem;    
   margin:auto;
 }
-
-
 code{
-  font-size:2rem;
-}
-
-a{
-  font-size:2rem;
+border-collapse:2px solid black;
 }
 
 footer{
+  position:relative;
   margin:auto;
+  margin-top:30px;
   text-align:center;
 }
