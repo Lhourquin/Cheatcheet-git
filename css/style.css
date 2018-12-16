@@ -1,9 +1,43 @@
-html{
+*{
+  font-size:10px;
 }
-table.blocktext{
-    margin-left: auto;
-    margin-right: auto;
-    width: 6em;
 
-    background-color:white;
+h1{
+  font-size:4rem;
+  text-align:center;
+}
+
+nav{
+  font-size:2rem;
+  text-align:center;
+}
+
+h2{
+  font-size:3rem;
+  text-align:center;
+
+}
+table, th, td{
+  border-collapse: collapse;
+  border:2px solid;
+  width:50%;
+  margin:auto;
+}
+th,td{
+  font-size:2rem;    
+  margin:auto;
+}
+
+
+code{
+  font-size:2rem;
+}
+
+a{
+  font-size:2rem;
+}
+
+footer{
+  margin:auto;
+  text-align:center;
 }
